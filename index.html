@@ -22,7 +22,22 @@
   </head>
   <body>
     
-    <div style="height: 100vh; width: 100vw" id="root"></div>
+    <div style="height: 100vh; width: 100vw" id="root">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #333; text-align: center; padding: 20px;">
+    
+    <div style="border: 6px solid #e0e0e0; border-top: 6px solid #3498db; border-radius: 50%; width: 60px; height: 60px; animation: spin 1s linear infinite; margin-bottom: 25px;"></div>
+    <style>
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+    
+    <h2 style="margin-bottom: 15px; color: #2c3e50;">Tai-H App 系統初始化中...</h2>
+    <p style="font-size: 16px; color: #555; max-width: 500px; line-height: 1.6;">
+      系統正在背景下載 R 語言運算核心與繪圖套件。<br>
+      <span style="color: #e74c3c; font-weight: bold;">首次載入約需 1 至 3 分鐘，請耐心等候，請勿關閉或重新整理網頁。</span><br>
+      <span style="font-size: 14px; color: #888;">(載入完成後，第二次訪問將可瞬間開啟)</span>
+    </p>
+  </div>
+  </div>
     
   </body>
 </html>
